@@ -1,0 +1,147 @@
+@-webkit-keyframes submitted {
+  0%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 4%); }
+  5%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 9%); }
+  10%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 14%); }
+  15%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 19%); }
+  20%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 24%); }
+  25%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 29%); }
+  30%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 34%); }
+  35%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 39%); }
+  40%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 44%); }
+  45%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 49%); }
+  50%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 54%); }
+  55%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 59%); }
+  60%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 64%); }
+  65%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 69%); }
+  70%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 74%); }
+  75%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 79%); }
+  80%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 84%); }
+  85%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 89%); }
+  90%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 94%); }
+  95%   { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 99%); }
+  100% { background-image: -webkit-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 100%, #E7B956 100%);
+  }
+}
+
+@-moz-keyframes submitted {
+  0%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 4%); }
+  5%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 9%); }
+  10%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 14%); }
+  15%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 19%); }
+  20%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 24%); }
+  25%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 29%); }
+  30%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 34%); }
+  35%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 39%); }
+  40%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 44%); }
+  45%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 49%); }
+  50%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 54%); }
+  55%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 59%); }
+  60%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 64%); }
+  65%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 69%); }
+  70%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 74%); }
+  75%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 79%); }
+  80%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 84%); }
+  85%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 89%); }
+  90%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 94%); }
+  95%   { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 99%); }
+  100% { background-image: -moz-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 100%, #E7B956 100%);
+  }
+}
+
+@-o-keyframes submitted {
+  0%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 4%); }
+  5%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 9%); }
+  10%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 14%); }
+  15%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 19%); }
+  20%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 24%); }
+  25%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 29%); }
+  30%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 34%); }
+  35%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 39%); }
+  40%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 44%); }
+  45%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 49%); }
+  50%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 54%); }
+  55%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 59%); }
+  60%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 64%); }
+  65%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 69%); }
+  70%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 74%); }
+  75%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 79%); }
+  80%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 84%); }
+  85%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 89%); }
+  90%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 94%); }
+  95%   { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 99%); }
+  100% { background-image: -o-radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 100%, #E7B956 100%);
+  }
+}
+
+@keyframes submitted {
+  0%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 4%); }
+  5%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 4%, #E7B956 9%); }
+  10%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 14%); }
+  15%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 14%, #E7B956 19%); }
+  20%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 24%); }
+  25%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 24%, #E7B956 29%); }
+  30%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 34%); }
+  35%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 34%, #E7B956 39%); }
+  40%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 44%); }
+  45%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 44%, #E7B956 49%); }
+  50%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 54%); }
+  55%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 54%, #E7B956 59%); }
+  60%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 64%); }
+  65%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 64%, #E7B956 69%); }
+  70%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 74%); }
+  75%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 74%, #E7B956 79%); }
+  80%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 84%); }
+  85%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 84%, #E7B956 89%); }
+  90%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 94%); }
+  95%   { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 94%, #E7B956 99%); }
+  100% { background-image: radial-gradient(center center, 50px 50px, rgb(57, 224, 57) 100%, #E7B956 100%);
+  }
+}
+
+@-webkit-keyframes animate-splash {
+  0%   { 
+  	opacity: 0; 
+  	/*top: 60%;*/
+  }
+
+  100% { 
+  	opacity: 1;
+  	/*top: 50%; */
+  }
+}
+
+@-moz-keyframes animate-in {
+  0%   { 
+  	opacity: 0; 
+  	/*top: 60%;*/
+  }
+
+  100% { 
+  	opacity: 1;
+  	/*top: 50%; */
+  }
+}
+
+@-o-keyframes animate-in {
+  0%   { 
+  	opacity: 0; 
+  	/*top: 60%;*/
+  }
+
+  100% { 
+  	opacity: 1;
+  	/*top: 50%; */
+  }
+}
+
+@keyframes animate-in {
+  0%   { 
+  	opacity: 0; 
+  	/*top: 60%;*/
+  }
+
+  100% { 
+  	opacity: 1;
+  	/*top: 50%; */
+  }
+}

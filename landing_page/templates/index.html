@@ -1,0 +1,73 @@
+{% load staticfiles %}
+<!doctype>
+<html>
+  <head>
+
+
+    <title>Vestium</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/vestium.css' %}">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=.5, maximum-scale=.5">
+        <style type="text/css">
+    .fullscreen_bg {
+        background: url("{% static image_path %}") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <div class="fullscreen_bg">
+    </div>
+    <div class="dash_container">
+      <div class="dash_branding">
+        <img src="{% static 'images/logo-ot.png' %}">
+      </div>
+      <div class="dash_description">
+        <h2>We're reinventing online fashion retail.<br> Sign-up for early access.</h2>
+      </div>
+      <form class="signup_form" autocomplete="off" id="signup_form" onSubmit="return false;" method="post" data-action="/api/v1/user/register">
+        <div class="form_container">
+              <div class="form_row">
+                  <label for="signup_email">Email</label>
+                  <input type="email" name="email" required="required" value="" placeholder="Email" id="signup_email" tabindex="1" maxlength="255" autocorrect="off" autocapitalize="off">
+                  <span class="tool_tip"></span>
+              </div>
+              <div class="form_row">
+                  <label for="signup_username">Username</label>
+                  <input type="text" name="username" value="" required="required" class="signup_username" placeholder="Username" id="signup_username" tabindex="2" maxlength="63" autocorrect="off" autocapitalize="off">
+                  <span class="tool_tip"></span>
+              </div>
+          </div>
+          <button type="submit" class="signup_forms_submit_helper">Submit</button>
+      </form>
+      <button tabindex="3" class="request button large" id="signup_forms_submit">
+        <span class="account_btn">Request Invitation</span>
+      </button>
+      <div class="signup_response">
+        <span class="response">Thank you for registering with Vestium. See you soon!</span>
+      </div>
+    </div>
+    <div class="footer_stat">
+      <div class="number" data-users="{{ num_users }}">{{ num_users }}</div>
+      <div class="description">users ahead of you</div>
+    </div>
+    <div class="image-info">
+        <div class="image-info-textual">
+          <i></i>
+          <u></u>
+          <a href="http://{{ user_link }}" target="_blank" tabindex="-1" class="post_description no_outline" title="Image by Gian Sainato">Image by <strong>{{user_name}}</strong></a>
+        </div>
+        <i class="image-info-icon fa fa-camera"></i>
+      </div>
+      <a class="twitter_wrapper" href="http://twitter.com/vestiumapp" target="_blank">
+        <img src="{% static 'images/Twitter_logo_white.png' %}" alt='Could not retrieve image' />
+      </a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{% static 'js/vestium.js' %}"></script>
+  </body>
+</html>
